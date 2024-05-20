@@ -1,0 +1,49 @@
+store banya
+reduces likha
+custome hooka banaya
+
+server is live now on port....8080
+DB Connected successfully
+
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbkRhdGEiOnsidXNlcklEIjoiNjYxYzUzZjdhYzNkNDMwMWRjNzY2NmEwIn0sImlhdCI6MTcxMzU1NDY3NywiZXhwIjoxNzEzNjQxMDc3fQ.0L74tJntNEsnsmLt1FlAZvfT_CadPQeqydab3Wjk_sc
+{
+  tokenData: { userID: '661c53f7ac3d4301dc7666a0' },
+  iat: 1713554677,
+  exp: 1713641077
+}
+Error--> TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle     
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\response.js:1159:12)
+    at ServerResponse.json (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\response.js:272:14) 
+    at otherProfile (file:///C:/Users/Hp/Documents/Grow%20Up/Final%20Year%20Project/Twitter%20Clone/Backend/controllers/userController.js:163:36)
+    at Layer.handle [as handle_request] (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuthentication (file:///C:/Users/Hp/Documents/Grow%20Up/Final%20Year%20Project/Twitter%20Clone/Backend/config/auth.js:24:9)
+    at Layer.handle [as handle_request] (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\route.js:119:3)   
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ0b2tlbkRhdGEiOnsidXNlcklEIjoiNjYxYzUzZjdhYzNkNDMwMWRjNzY2NmEwIn0sImlhdCI6MTcxMzU1NDY3NywiZXhwIjoxNzEzNjQxMDc3fQ.0L74tJntNEsnsmLt1FlAZvfT_CadPQeqydab3Wjk_sc
+{
+  tokenData: { userID: '661c53f7ac3d4301dc7666a0' },
+  iat: 1713554677,
+  exp: 1713641077
+}
+Error--> TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'MongoClient'
+    |     property 's' -> object with constructor 'Object'
+    |     property 'sessionPool' -> object with constructor 'ServerSessionPool'
+    --- property 'client' closes the circle     
+    at JSON.stringify (<anonymous>)
+    at stringify (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\response.js:1159:12)
+    at ServerResponse.json (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\response.js:272:14) 
+    at otherProfile (file:///C:/Users/Hp/Documents/Grow%20Up/Final%20Year%20Project/Twitter%20Clone/Backend/controllers/userController.js:163:36)
+    at Layer.handle [as handle_request] (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\route.js:149:13)
+    at isAuthentication (file:///C:/Users/Hp/Documents/Grow%20Up/Final%20Year%20Project/Twitter%20Clone/Backend/config/auth.js:24:9)
+    at Layer.handle [as handle_request] (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\route.js:149:13)
+    at Route.dispatch (C:\Users\Hp\Documents\Grow Up\Final Year Project\Twitter Clone\Backend\node_modules\express\lib\router\route.js:119:3)   
